@@ -1,0 +1,48 @@
+
+
+.footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 5rem;
+}
+
+.footer_box{
+    width: 80%;
+   padding-block: 3rem;
+    margin: auto;
+    align-items: center;
+}
+
+.footer_box h2{
+    text-align: center;
+    border-bottom: .2px solid rgb(115, 114, 114);
+    font-size: 2rem;
+    width: 20rem;
+    margin: auto;
+}
+
+.footer_box_social{
+    text-align: center;
+    padding-top: 1rem;
+    width: 20rem;
+    margin: auto;
+   text-align: center;
+   padding-left: 1rem;
+}
+
+.footer_box_social_icon{
+    font-size: 3rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 35em) {
+    .footer_box h2{
+        font-size: 1rem;
+        width: 15rem;
+    }
+
+    .footer_box_social_icon{
+        font-size: 2.5rem;
+    }
+}

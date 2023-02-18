@@ -1,0 +1,536 @@
+
+
+.tabs{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tabs h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2rem;
+
+    background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #93FF61 285deg, #FFFFFF 360deg);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        
+}
+
+.tabs_box{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem;
+    gap: 5rem;
+}
+
+.tabs_box_tab1{
+    background-color: #F3F5F3;
+    width: 29rem;
+    height: 32rem;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    
+    cursor: pointer;
+    
+}
+
+.tabs_box_tab1 p{
+    font-size: 2rem;
+   
+
+    background: linear-gradient(180deg, #545454 12.5%, #0F2306 79.17%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        
+}
+
+.tabs_box_tab1_imageGrid{
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+    width: 12rem;
+    padding: .4rem 10rem;
+
+}
+
+.tabs_box_tab1_imageGrid_user{
+    border-radius: 50%;
+    display: grid;
+}
+
+.tabs_box_tab1 button{
+    cursor: pointer;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #4d4e4c;
+    border: none;
+    margin-top: -2rem;
+}
+
+.tabs_box_tab1 button:hover{
+    background-color: rgb(22, 18, 18) ;
+    color: #D9D9D9;
+}
+
+.tabs_box_tab2{
+    cursor: pointer;
+}
+
+.tabs_box_tab2_img{
+    width: 100%;
+}
+
+.tabs_box_tab3{
+
+    cursor: pointer;
+    width: 29rem;
+    height: 32rem;
+    background-color: black;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.podcastMenu {
+    width: 30rem;
+    background-color: red;
+    position: relative;
+    top: -20rem;
+    right: -15rem;
+    color: rgba(209, 147, 2, 0.57);
+}
+
+.tabs_box_tab3_head{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    padding-right: 2rem;
+    
+}
+
+.tabs_box_tab3 h2{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-top: 3.2rem;
+}
+
+.tabs_box_tab3 span{
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.tabs_box_tab3_icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1rem);
+    gap: 2.5rem;
+}
+
+.tabs_box_tab3_icon{
+    font-size: 2.5rem;
+    position: absolute;
+}
+
+.tabs_box_tab3_icon:hover{
+    font-size: 2.5rem;
+}
+
+
+.tabs_box_tab4{
+    cursor: pointer;
+    width: 29rem;
+    height: 32rem;
+    background-color: black;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.tabs_box_tab4 h2{
+    font-size: 2.1rem;
+    width: 80%;
+    padding-top: 2rem ;
+}
+
+
+.tabs_box_tab4_container button{
+    position: relative;
+    top: -2rem;
+    cursor: pointer;
+    background-color: #D9D9D9;
+    color: #545454;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+   
+    
+}
+
+.tabs_box_tab4 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.tabs_box_tab4_container_img{
+    position: relative;
+    left: 2rem;
+}
+
+@media screen and (max-width: 35em) {
+    .tabs h3{
+        font-size: 1.2rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    .tabs_box{
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .tabs_box_tab1 button{
+        margin-top: 0;
+    }
+
+    .tabs_box_tab1{
+    background-color: #F3F5F3;
+    width: auto;
+    height: 32rem;
+    padding: 2em 2rem;
+    border-radius: 1rem;
+    align-items: flex-end;
+    cursor: pointer;  
+}
+
+.tabs_box_tab2{
+    width: auto;
+}
+
+.tabs_box_tab2_img{
+    width: 100%;
+    height: unset;
+}
+
+.tabs_box_tab3{
+    width: auto;
+}
+
+.tabs_box_tab3_img{
+    width: 100%;
+}
+
+.tabs_box_tab1 p{
+    font-size: 1.5em;
+    color: black;
+}
+
+.tabs_box_tab1_imageGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+    width: 12rem;
+    padding: .4rem 6rem;
+    margin-top: 1rem;
+
+}
+
+.tabs_box_tab4{
+    width: auto;
+}
+
+.tabs_box_tab4 h2{
+    font-size: 1.7rem;
+}
+
+.tabs_box_tab4_container button{
+  
+   padding: 1rem 1rem;
+}
+
+
+.tabs_box_tab4_container_img{
+    top: 2.5rem;
+    left: 2rem;
+    width: auto;
+}
+
+
+
+
+}
+@media screen and (min-width: 450px) and (max-width: 564px) {
+    .tabs h3{
+        font-size: 1.2rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    .tabs_box{
+        grid-template-columns: 1fr;
+        width: 80%;
+        padding: 1rem;
+    }
+
+    
+
+    .tabs_box_tab1{
+    background-color: #F3F5F3;
+    width: auto;
+    height: 32rem;
+    padding: 2em 2rem;
+    border-radius: 1rem;
+    align-items: flex-end;
+    cursor: pointer;  
+}
+
+.tabs_box_tab2{
+    width: auto;
+}
+
+.tabs_box_tab2_img{
+    width: 100%;
+    height: unset;
+}
+
+.tabs_box_tab3{
+    width: auto;
+}
+
+.tabs_box_tab3_img{
+    width: 100%;
+}
+
+.tabs_box_tab1 p{
+    font-size: 1.5em;
+    color: black;
+}
+
+.tabs_box_tab1_imageGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+    width: 12rem;
+    padding: .4rem 6rem;
+
+}
+
+.tabs_box_tab4{
+    width: auto;
+}
+
+.tabs_box_tab4 h2{
+    font-size: 2rem;
+}
+
+.tabs_box_tab4_container button{
+    top: 2rem;
+   padding: 1rem 4rem;
+}
+
+
+.tabs_box_tab4_container_img{
+    top: 4.5rem;
+    left: 2rem;
+    width: fit-content;
+    
+}
+
+
+
+
+}
+@media screen and (min-width: 578px) and (max-width: 768px) {
+    .tabs h3{
+        font-size: 1.2rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    .tabs_box{
+        grid-template-columns: 1fr;
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .tabs_box_tab1{
+    background-color: #F3F5F3;
+    width: auto;
+    height: 32rem;
+    padding: 2em 2rem;
+    border-radius: 1rem;
+    align-items: flex-end;
+    cursor: pointer;  
+}
+
+.tabs_box_tab1 p{
+    font-size: rem;
+}
+
+.tabs_box_tab1_imageGrid{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+
+.tabs_box_tab2{
+    width: auto;
+}
+
+.tabs_box_tab2_img{
+    width: 100%;
+    height: unset;
+}
+
+.tabs_box_tab3{
+    width: auto;
+}
+
+.tabs_box_tab3_img{
+    width: 100%;
+    height: unset;
+}
+
+
+.tabs_box_tab1 p{
+    font-size: 2em;
+    color: black;
+}
+
+.tabs_box_tab1_imageGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+    width: 12rem;
+    padding: .4rem 6rem;
+
+}
+
+.tabs_box_tab4{
+    width: auto;
+}
+
+.tabs_box_tab4 h2{
+    font-size: 2rem;
+}
+
+.tabs_box_tab4_container button{
+    top: 2rem;
+   padding: 1rem 4rem;
+}
+
+
+.tabs_box_tab4_container_img{
+    top: 4.5rem;
+    left: 3rem;
+    width: fit-content;
+    
+}
+
+
+
+
+}
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    .tabs h3{
+        font-size: 1.2rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    .tabs_box{
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .tabs_box_tab1{
+    background-color: #F3F5F3;
+    width: auto;
+    height: 32rem;
+    padding: 2em 2rem;
+    border-radius: 1rem;
+    align-items: flex-end;
+    cursor: pointer;  
+}
+
+.tabs_box_tab1 p{
+    font-size: 1.5rem ;
+}
+
+.tabs_box_tab1 button{
+    margin-top: .5rem;
+}
+
+.tabs_box_tab1_imageGrid{
+  
+    text-align: center;
+}
+
+
+.tabs_box_tab2{
+    width: auto;
+}
+
+.tabs_box_tab2_img{
+    width: 100%;
+    height: 32rem;
+}
+
+.tabs_box_tab3{
+    width: auto;
+}
+
+.tabs_box_tab3_img{
+    width: 100%;
+}
+
+
+
+
+.tabs_box_tab1_imageGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+    width: 12rem;
+    padding: .4rem 6rem;
+
+}
+
+.tabs_box_tab4{
+    width: auto;
+}
+
+.tabs_box_tab4 h2{
+    font-size: 2rem;
+}
+
+.tabs_box_tab4_container button{
+    top: 0rem;
+   padding: 1rem 1rem;
+}
+
+
+.tabs_box_tab4_container_img{
+    top: 4.5rem;
+    left: 2rem;
+    width: fit-content;
+    
+}
+
+
+
+
+}
