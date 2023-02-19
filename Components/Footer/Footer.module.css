@@ -46,3 +46,13 @@
         font-size: 2.5rem;
     }
 }
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+    .footer_box h2{
+        font-size: 2rem;
+        width: 25rem;
+    }
+
+    .footer_box_social_icon{
+        font-size: 3rem;
+    }
+}

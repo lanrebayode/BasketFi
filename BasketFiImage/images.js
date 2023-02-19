@@ -1,4 +1,5 @@
-import basketfilogo from "./BasketFi.png";
+import mockup from "./mockup.png";
+import full_mockup from "./full-mockUp.png";
 import hero from "./hero.png";
 import tab1 from "./tab1.png";
 import tab2 from "./tab2.png";
@@ -14,7 +15,7 @@ import user6 from "./user6.jpg";
 import user7 from "./user7.jpg";
 import user8 from "./user8.jpg";
 import user9 from "./user9.jpg";
-
+import basketfilogo from "./BasketFi.png";
 import downTab1 from "./downTab1.png";
 import downTab2 from "./downTab2.png";
 import downTab3 from "./downTab3.png";
@@ -23,18 +24,16 @@ import downTab5 from "./downTab5.png";
 
 export default {
   mockup,
-  wallstreet,
+  full_mockup,
   basketfilogo,
   hero,
-  n,
-  wallstreetlogo,
+
   tab1,
   tab2,
   tab3,
   tab4,
   vector,
-  full_mockUp,
-  half_mockUp,
+
   user1,
   user2,
   user3,

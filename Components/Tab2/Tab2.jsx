@@ -15,7 +15,7 @@ const Tab2 = () => {
         </div>
         <Image
           className={Style.tab2_box_img}
-          src={images.full_mockUp}
+          src={images.full_mockup}
           alt="mockUp"
           width={250}
           height={500}

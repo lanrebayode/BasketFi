@@ -205,6 +205,14 @@
 
 }
 @media screen and (min-width: 450px) and (max-width: 768px) {
+
+    .heroSection_box_vector{
+    position: absolute;
+    width: 100%;
+    height: unset;
+    left: 4rem;
+    top: 0rem;
+}
    
 
     .heroSection_box{
@@ -300,6 +308,15 @@
 
 }
 @media screen and (min-width: 770px) and (max-width: 1024px) {
+
+       .heroSection_box_vector{
+    position: absolute;
+    width: 100%;
+    height: unset;
+    left: 2rem;
+    top: -1.5rem;
+}
+   
     .heroSection_box{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -317,7 +334,9 @@
     }
 
     .heroSection_box_right_img{
-        width: 120%;
+        width: 130%;
+        position: relative;
+        top: -3rem;
         height: unset;
     }
 
