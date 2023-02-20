@@ -52,6 +52,23 @@ const HeroSection = () => {
             className={Style.heroSection_box_right_img}
           />
         </div>
+
+        <div className={Style.heroSection_box_btnClass2}>
+          <div className={Style.heroSection_box_left_download2}>
+            <a href="#">
+              <button className={Style.heroSection_box_left_download_btn}>
+                <AiFillApple className={Style.heroSection_icon_app} />
+                <span>Download on the App Store</span>
+              </button>
+            </a>
+            <a href="#">
+              <button className={Style.heroSection_box_left_download_btn}>
+                <FaGooglePlay className={Style.heroSection_icon} />{" "}
+                <span>Download on Google Play</span>
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
 
       <div className={Style.heroSection_downTab}>

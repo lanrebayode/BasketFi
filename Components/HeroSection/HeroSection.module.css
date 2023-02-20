@@ -45,6 +45,9 @@
     align-items: center;
     gap: 2rem;
 }
+.heroSection_box_left_download2{
+    display: none;
+}
 
 .heroSection_icon{
     font-size: 1.5rem;
@@ -68,6 +71,11 @@
     grid-template-columns: 1fr 3fr;
     gap: .2rem;
     cursor: pointer;
+}
+
+.span{
+    font-size: 2rem;
+
 }
 
 .heroSection_box_left_download_btn:hover{
@@ -125,8 +133,8 @@
     position: absolute;
     width: 90%;
     height: unset;
-    left: 0rem;
-    top: 5rem;
+    left: 4rem;
+    top: 4rem;
 }
 
     .heroSection_box_right_img{
@@ -172,6 +180,21 @@
         margin: 0 auto;
         
     }
+    .heroSection_box_btnClass2{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    .heroSection_box_left_download2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    }
+.heroSection_box_left_download{
+    display: none;
+    }   
+
 
     .heroSection_downTab{
         width: 100%;
@@ -269,14 +292,27 @@
     color: #25D78D;
     }
 
-    .heroSection_box_btnClass{
-        width: 50%;
-       margin: auto;
-       padding: 0 2rem;
-       
-        
+    .heroSection_box_btnClass2{
+        width: 80%;
+        margin: auto;
+        padding: 1rem 2rem;
     }
 
+    .heroSection_box_btnClass{
+        display: none;
+    }
+
+         .heroSection_box_left_download2 {
+             display: flex;
+             align-items: center;
+             gap: 2rem;
+             position: relative;
+             top: -1rem;
+         }
+    
+         .heroSection_box_left_download {
+             display: none;
+         }
 
     .heroSection_downTab{
         width: 100%;
@@ -303,13 +339,10 @@
     height: unset;
 }
 
-
-
-
 }
 @media screen and (min-width: 770px) and (max-width: 1024px) {
 
-       .heroSection_box_vector{
+    .heroSection_box_vector{
     position: absolute;
     width: 100%;
     height: unset;

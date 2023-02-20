@@ -40,8 +40,8 @@ const NavBar = () => {
             </div>
           ) : (
             <div className={Style.NavBar_box_btn}>
-              <button className={Style.NavBar_box_button}>Sign Up</button>
-              <button className={Style.NavBar_box_button}>Sign In</button>
+              {/* <button className={Style.NavBar_box_button}>Sign Up</button>
+              <button className={Style.NavBar_box_button}>Sign In</button> */}
               {/* <AiOutlineMenu
                 className={Style.NavBar_box_menuIcon}
                 onClick={() => openMenu()}
