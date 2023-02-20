@@ -20,6 +20,11 @@
     font-weight: 600;
 }
 
+.NavBar_box h5{
+    font-family: rany;
+    font-size: 1rem;
+}
+
 .NavBar_box_btn{
     display: flex;
     gap: .5rem;

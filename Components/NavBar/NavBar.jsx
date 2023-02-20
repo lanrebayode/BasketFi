@@ -11,6 +11,23 @@ const NavBar = () => {
   const [logIn, setLogIn] = useState(false);
   const [menuBar, setMenuBar] = useState(false);
 
+  const current = new Date();
+
+  const options = {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+  };
+
+  const month = current.toLocaleString("en", { month: "long" });
+
+  const date = `${current.getDate()} ${month}, ${current.getFullYear()}.`;
+
   const openMenu = () => {
     if (!menuBar) {
       setMenuBar(true);
@@ -30,6 +47,7 @@ const NavBar = () => {
         />
         <p>App coming soon on IOS</p>
         <div className={Style.NavBar_box_container}>
+          <h5>{date}</h5>
           {logIn ? (
             <div className={Style.NavBar_box_box}>
               <h3>Welcome, Olanrewaju.</h3>
