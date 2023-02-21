@@ -127,6 +127,7 @@
 
     .heroSection_box_right{
         width: 80%;
+        
     }
 
     .heroSection_box_vector{
@@ -138,8 +139,10 @@
 }
 
     .heroSection_box_right_img{
-        width: 120%;
+        width: 130%;
         height: unset;
+        margin-left: -.7rem;
+        margin-top: -2rem;
     }
 
     .heroSection_box_left h2{

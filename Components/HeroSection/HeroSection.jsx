@@ -12,12 +12,12 @@ const HeroSection = () => {
     <div className={Style.heroSection}>
       <div className={Style.heroSection_box}>
         <div className={Style.heroSection_box_left}>
-          <Image
+          {/* <Image
             className={Style.heroSection_box_vector}
             src={images.vector}
             alt="vector"
             width={500}
-          />
+          /> */}
           <div className={Style.holder}>
             <h2>Unlocking Financial Litracy for Everyone</h2>
             <p>

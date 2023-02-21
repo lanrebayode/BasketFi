@@ -47,7 +47,7 @@ const NavBar = () => {
         />
         <p>App coming soon on IOS</p>
         <div className={Style.NavBar_box_container}>
-          <h5>{date}</h5>
+          {/* <h5>{date}</h5> */}
           {logIn ? (
             <div className={Style.NavBar_box_box}>
               <h3>Welcome, Olanrewaju.</h3>
