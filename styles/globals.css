@@ -29,20 +29,29 @@ body {
   font-family: 'Rany', sans-serif ;
 }
 
+span {
+  font-family: 'Rany', sans-serif;
+}
+
 h1 {
-  font-family: rany;
+  font-family: 'Rany',
+    sans-serif;
 }
 h2 {
-  font-family: rany;
+  font-family: 'Rany',
+    sans-serif;
 }
 h3 {
-  font-family: rany;
+  font-family: 'Rany',
+    sans-serif;
 }
 h4 {
-  font-family: rany;
+  font-family: 'Rany',
+    sans-serif;
 }
 h5 {
-  font-family: rany;
+  font-family: 'Rany',
+    sans-serif;
 }
 
 
