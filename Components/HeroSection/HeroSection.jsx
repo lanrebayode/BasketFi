@@ -61,7 +61,7 @@ const HeroSection = () => {
                 <span>Download on the App Store</span>
               </button>
             </a>
-            <a href="#">
+            <a href="https://play.google.com/store/apps/details?id=com.basketfi.app&hl=en&gl=US">
               <button className={Style.heroSection_box_left_download_btn}>
                 <FaGooglePlay className={Style.heroSection_icon} />{" "}
                 <span>Download on Google Play</span>
