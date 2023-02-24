@@ -45,7 +45,7 @@ const NavBar = () => {
           alt="basket-fi logo"
           width={150}
         />
-        <p>App coming soon on IOS</p>
+
         <div className={Style.NavBar_box_container}>
           {/* <h5>{date}</h5> */}
           {logIn ? (

@@ -55,7 +55,7 @@ const HeroSection = () => {
 
         <div className={Style.heroSection_box_btnClass2}>
           <div className={Style.heroSection_box_left_download2}>
-            <a href="#">
+            <a href="https://apps.apple.com/ng/app/basketfi/id1668564672">
               <button className={Style.heroSection_box_left_download_btn}>
                 <AiFillApple className={Style.heroSection_icon_app} />
                 <span>Download on the App Store</span>

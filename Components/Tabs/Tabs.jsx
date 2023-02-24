@@ -70,7 +70,7 @@ const Tabs = () => {
         </div>
 
         <div className={Style.tab_box_tab2}>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSexi8lE-RkNBylVRDgMR5fhbAVB8JMsvS-6FPhxy8CtO0PfPA/viewform">
+          <a href="#">
             <Image
               className={Style.tabs_box_tab2_img}
               src={images.tab2}
@@ -157,13 +157,15 @@ const Tabs = () => {
               height={250}
             />
           </div> */}
-          <Image
-            src={images.tab4}
-            alt="tab1"
-            width={400}
-            height={450}
-            className={Style.tabs_box_tab2_img}
-          />
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSexi8lE-RkNBylVRDgMR5fhbAVB8JMsvS-6FPhxy8CtO0PfPA/viewform">
+            <Image
+              src={images.tab4}
+              alt="tab1"
+              width={400}
+              height={450}
+              className={Style.tabs_box_tab2_img}
+            />
+          </a>
         </div>
       </div>
     </div>
